@@ -80,7 +80,7 @@ Välj och vraka efter eget tycke :-)
   ](https://www.totaltypescript.com/tutorials/beginners-typescript) Uppgift 9-18 G-nivå
 2. [https://typescript-exercises.github.io/](https://typescript-exercises.github.io/) Uppgift 5, 7-10 VG-nivå
 3. [https://github.com/LearningTypeScript/projects](https://github.com/LearningTypeScript/projects) - Följer [denna O'really bok](https://www.oreilly.com/library/view/learning-typescript/9781098110321/?_gl=1*pv2bzi*_ga*MTgzNjg0Njk0Ny4xNjk1MDMwMDU5*_ga_092EL089CH*MTY5NTIxMjAxOS4yLjEuMTY5NTIxMjIzNS40MS4wLjA.), men du måste inte ha boken. Utgå från mapparna and "Functions", "Interfaces", "Generics". De delar in övningarna Appertizer (= G-nivå), Entrees (VG-nivå), Desserts (VG-nivå)
-4. [Matt Pockok Generics Workshop ](https://github.com/total-typescript/typescript-generics-workshop)
+4. [Matt Pocock Generics Workshop ](https://github.com/total-typescript/typescript-generics-workshop)
 
 
 
