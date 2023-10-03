@@ -104,7 +104,7 @@ const stringBox: Box<string> = { item: "Hello, TypeScript!" };
 console.log(unbox(stringBox)); // "Hello, TypeScript!"
 
 ```
-4. Hur kan man begränsa så att exempelvis en funktion med generiska typer inte tillåter alla typer utan endast exempelvis string eller number? 
+4. Hur kan man göra så att en funktion med generiska typer inte tillåter alla typer utan endast exempelvis string eller number? 
 
 # 🏃🏽‍♂️ Extrauppgifter
 
