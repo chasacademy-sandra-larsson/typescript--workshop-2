@@ -1,6 +1,6 @@
 
 # Typescript #2: Mer av Typescript 
-👋 Se föreläsningen i tisdags ✅ 
+👋 Se föreläsningen i tisdags och i onsdags ✅ 
 
 **Syftet med denna workshop:** Vi går vidare från grunderna i Typescript och utforskar:
 
