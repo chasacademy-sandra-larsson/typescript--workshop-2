@@ -2,7 +2,7 @@
 # Typescript #2: Mer av Typescript 
 👋 Se föreläsningen i tisdags ✅ 
 
-**Syftet med denna workshop:** Förstå vad Typescript är och vad det kan användas till. De olika områdena inom Typescrpt som denna workshop fokuserar på:
+**Syftet med denna workshop:** Vi går vidare från grunderna i Typescript och utforskar:
 
 * Interfaces vs Types
 * Index signatures
@@ -12,6 +12,8 @@
 
 
 ### Setup med vanilla TS-projekt
+
+Vi fortsätter jobba i vanilla TS med Node. Förutom övning 2 där vi kör vår tsc-kompilearade js i browsern.
 
 ```
 npm init
@@ -48,8 +50,9 @@ I denna uppgift ska ni själva konstruera ett exempel som använder sig av:
 * Ni använder en **funktion eller en class som tar in ett interfaces** som argument och använder det i funktioner/classes
 * En output för minst en objektdata 
 
-När ni är klara ska ni lista skillnaderna mellan Interface och Types. 
-**Vad kan interfaces gör men inte Type:s och vice-versa?**
+När ni är klara ska ni lista skillnaderna mellan Interface och types: 
+
+**Vad kan interfaces gör men inte type:s och vice-versa?**
 
 # 👩🏽‍💻 Övning 2: Hämta från API och visa i DOM:en 
 
@@ -69,7 +72,39 @@ Arbeta 2 och 2.
 
 # 👩🏽‍💻 Övning 3: Generics
 
-Kommer snart
+Svara på frågan: Vad är generics? Vad är fördelen med att använda en generiska typer i en funktion/interface/type/class?
+
+Börja läs i Typescriptdokumentation och leta även andra källor.
+[https://www.typescriptlang.org/docs/handbook/2/generics.html#handbook-content
+](https://www.typescriptlang.org/docs/handbook/2/generics.html#handbook-content)
+
+Uppgifter: 
+
+1. Skapa en funktion som använder generiska typer. Funktionen ska ta in en array av vilken typ som helst och returna arrayen i omvänd ordning.
+2. Skapa en funktion som tar in två parametrar "key" och "value" som vardera är en generisk typ (inte samma!) och returnera objektet av properties "key" och "value"
+
+ ```
+ makePair("name", "sandra")
+ makePair("age", 28)
+ 
+ //Returns
+ {
+  "key": "name",
+  "value": "sandra"
+} 
+{
+  "key": "age",
+  "value": 28
+} 
+```
+3. Skapa ett interface "Box" med en generisk typ T. Interfaces ska ha ett property "item" av typen T. Skapa en funktion "unbox" som tar in interfacet Box och returnerar "item".
+
+```
+const stringBox: Box<string> = { item: "Hello, TypeScript!" };
+console.log(unbox(stringBox)); // "Hello, TypeScript!"
+
+```
+4. Hur kan man begränsa så att exempelvis en funktion med generiska typer inte tillåter alla typer utan endast exempelvis string eller number? 
 
 # 🏃🏽‍♂️ Extrauppgifter
 
